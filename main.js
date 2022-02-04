@@ -13,5 +13,32 @@ function check(){
 
     if (que1 == "javascript")
     {answer++}
+
+    if (que2 == "javascript")
+    {answer++}
+
+    if (que3 == "javascript")
+    {answer++}
+
+    if (que4 == "javascript")
+    {answer++}
     document(answer);
+
+    if (que5 == "javascript")
+    {answer++}
+
+    if (que6 == "javascript")
+    {answer++}
+
+    if (que7 == "javascript")
+    {answer++}
+
+    if (que8 == "javascript")
+    {answer++}
+
+    if (que9 == "javascript")
+    {answer++}
+
+    if (que10 == "javascript")
+    {answer++}
 }
