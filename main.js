@@ -11,34 +11,29 @@ function check(){
     var que9 = document.quiz.question9.value;
     var que10 = document.quiz.question10.value;
 
-    if (que1 == "javascript")
-    {answer++}
+    var results = document.getElementsById ('results');
 
-    if (que2 == "javascript")
-    {answer++}
+    if (que1 == "js"){answer++}
 
-    if (que3 == "javascript")
-    {answer++}
+    if (que2 == "js"){answer++}
 
-    if (que4 == "javascript")
-    {answer++}
-    document(answer);
+    if (que3 == "js"){answer++}
 
-    if (que5 == "javascript")
-    {answer++}
+    if (que4 == "js"){answer++}    
 
-    if (que6 == "javascript")
-    {answer++}
+    if (que5 == "js"){answer++}
 
-    if (que7 == "javascript")
-    {answer++}
+    if (que6 == "js"){answer++}
 
-    if (que8 == "javascript")
-    {answer++}
+    if (que7 == "js"){answer++}
 
-    if (que9 == "javascript")
-    {answer++}
+    if (que8 == "js"){answer++}
 
-    if (que10 == "javascript")
-    {answer++}
+    if (que9 == "js"){answer++}
+
+    if (que10 == "js"){answer++}
+
+document.write(answer);
+
+
 }
