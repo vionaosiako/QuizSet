@@ -11,7 +11,7 @@ function check(){
     var que9 = document.quiz.question9.value;
     var que10 = document.quiz.question10.value;
 
-    var results = document.getElementsById ('results');
+    // var results = document.getElementsById('results');
 
     if (que1 == "js"){answer++}
 
