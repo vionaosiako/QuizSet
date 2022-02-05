@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 5px;
+    font-family : Poppins;
+    
+  }
+  
 .start{
     display: flex;
     justify-content: space-between;
@@ -37,6 +45,24 @@ header h1{
     display: flex;
     justify-content: space-between;
     padding: 40px;
+}
+
+.quizSet{
+    
+    display: flex;
+    justify-content: center;
+}
+.quizSet form{
+    border-style: solid;
+    border-radius: 50px;
+    width: 50%;
+    padding-left: 30px;
+    background-color: grey;
+         
+    
+}
+.quizSet form div ul{
+    list-style: none;
 }
 
 
