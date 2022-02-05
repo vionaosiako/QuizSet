@@ -75,5 +75,14 @@ h1{
     background-color: #00ff00;
     padding: 20px;
 }
+@media screen and (max-width:1080px){
+    .instruction{
+        flex-wrap: wrap;
+    }
+    .instructionImg2{
+        display: none;
+    }
+        
+}
 
 
