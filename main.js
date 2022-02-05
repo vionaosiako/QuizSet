@@ -1,5 +1,6 @@
+var answer =0;
 function check(){
-    var answer =0;
+    
     var que1 = document.quiz.question1.value;
     var que2 = document.quiz.question2.value;
     var que3 = document.quiz.question3.value;
@@ -13,27 +14,42 @@ function check(){
 
     // var results = document.getElementsById('results');
 
-    if (que1 == "js"){answer++}
+    if (que1 == "scripting language"){answer++}
 
-    if (que2 == "js"){answer++}
+    if (que2 == "Undefined"){answer++}
 
-    if (que3 == "js"){answer++}
+    if (que3 == "Javascript"){answer++}
 
-    if (que4 == "js"){answer++}    
+    if (que4 == "all of the above"){answer++}    
 
-    if (que5 == "js"){answer++}
+    if (que5 == "all of the above"){answer++}
 
-    if (que6 == "js"){answer++}
+    if (que6 == "ignores the statement"){answer++}
 
-    if (que7 == "js"){answer++}
+    if (que7 == "all of the above"){answer++}
 
-    if (que8 == "js"){answer++}
+    if (que8 == "const"){answer++}
 
-    if (que9 == "js"){answer++}
+    if (que9 == "all of the above"){answer++}
 
-    if (que10 == "js"){answer++}
+    if (que10 == "clearInterval"){answer++}
 
-document.write(answer);
-
+ document.write(answer);
+// document.getElementById("results").innerHTML = answer
 
 }
+
+function grading(){
+    let grade;
+    if(answer>=8){
+        grade = "Excellently passed"
+    }
+    else if(answer>=5){
+        grade="Fairly passed"
+    }
+    else{
+        grade="poorly done, kindly retake"
+    }
+    // document.getElementById("results").innerHTML = grade;
+}
+
