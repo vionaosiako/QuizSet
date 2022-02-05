@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 5px;
     font-family : Poppins;
+    font-size: 25px;
     
   }
   
@@ -34,7 +35,7 @@ header ul li a:hover{
 header ul li a:active{
     color: honeydew;
 }
-header h1{
+h1{
     color: #00ff00;
 }
 .aboutUs{
@@ -47,22 +48,27 @@ header h1{
     padding: 40px;
 }
 
-.quizSet{
-    
+.quizSet{    
     display: flex;
     justify-content: center;
+    background-color: rgba(128, 128, 128, 0.158);
+    font-size: 30px;
 }
 .quizSet form{
     border-style: solid;
     border-radius: 50px;
-    width: 50%;
+    width: 60%;
     padding-left: 30px;
-    background-color: grey;
-         
+    background-color: #00ff00;     
     
 }
 .quizSet form div ul{
     list-style: none;
+}
+
+.quizSet form button{
+    background-color: #00ff00;
+    padding: 20px;
 }
 
 
