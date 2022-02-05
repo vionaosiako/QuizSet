@@ -29,5 +29,8 @@ header ul li a:active{
 header h1{
     color: #00ff00;
 }
-
+.aboutUs{
+    text-align: center;
+    padding: 40px;
+}
 
