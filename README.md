@@ -43,7 +43,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#description))
 ## Authors Info
-Linked - [Viona Osiako](https://www.linkedin.com/in/viona-osiako-54094a170)
+Linked In- [Viona Osiako](https://www.linkedin.com/in/viona-osiako-54094a170)
 
 github link - (https://github.com/vionaosiako/QuizSet)
 [Go Back to the top](#description))
