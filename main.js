@@ -37,6 +37,7 @@ function checkAnswers(){
 //  document.write(answer);
 document.getElementById("results").innerHTML = answer;
 gradingSystem();
+percentage();
 
 }
 
@@ -53,5 +54,10 @@ function gradingSystem(){
         grade="poorly done, kindly retake"
     }
     document.getElementById("grade").innerHTML = grade;
+}
+
+function percentage(){
+    const numOfQue= 10;
+    return(100*answer)/numOfQue;
 }
 

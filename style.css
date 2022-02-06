@@ -66,7 +66,7 @@ header ul li a:active{
 .quizSet form{
     border-style: solid;
     border-radius: 50px;
-    width: 60%;
+    width: 80%;
     padding-left: 30px;
     background-color: rgba(0, 225, 255, 0.329);     
     
@@ -77,8 +77,8 @@ header ul li a:active{
 
 button{
     padding: 20px;
-    width: 400px; 
-    background-color: #ffffff;
+    width: 30%; 
+    /* background-color: #ffffff; */
     border-radius: 12px;
 }
 
@@ -99,6 +99,12 @@ button{
         display: none;
     }
         
+}
+@media screen and (max-width:600px){
+    .aboutUs{
+        position: relative;
+    }
+    
 }
 footer{
     background-color: rgba(128, 128, 128, 0.158);
