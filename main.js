@@ -1,5 +1,5 @@
 var answer =0;
-function check(){
+function checkAnswers(){
     
     var que1 = document.quiz.question1.value;
     var que2 = document.quiz.question2.value;
@@ -36,11 +36,11 @@ function check(){
 
 //  document.write(answer);
 document.getElementById("results").innerHTML = answer;
-grading();
+gradingSystem();
 
 }
 
-function grading(){
+function gradingSystem(){
     let grade;
 
     if(answer>=8){

@@ -35,9 +35,9 @@ header ul li a:hover{
 header ul li a:active{
     color: honeydew;
 }
-h1{
+/* h1{
     color: #00ff00;
-}
+} */
 .aboutUs h1{
     color: #000000;
 }
@@ -48,7 +48,7 @@ h1{
     left: 50%;
     transform:translate(-45%, -45%);
     padding: 40px;
-    color: #006400;
+    color: #0a68f5;
     
 }
 .instruction{
@@ -68,14 +68,14 @@ h1{
     border-radius: 50px;
     width: 60%;
     padding-left: 30px;
-    background-color: #00ff00;     
+    background-color: rgba(0, 225, 255, 0.329);     
     
 }
 .quizSet form div ul{
     list-style: none;
 }
 
-.buttonSubmit{
+button{
     padding: 20px;
     width: 400px; 
     background-color: #ffffff;
@@ -90,6 +90,7 @@ h1{
     padding-left: 30px;
     background-color: #ffffff;
 }
+
 @media screen and (max-width:1080px){
     .instruction{
         flex-wrap: wrap;

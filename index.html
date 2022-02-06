@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <title>QuizSet</title>
 </head>
 <body>
+    
 <header class="start">
     <div>
         <h1>QuizSet</h1>
     </div>
     <div>
-        <ul>
+        <!-- <ul>
         <li><a href="#start">Home</a></li>
         <li><a href="#instruction">Instruction</a></li>
         <li><a href="#quizSet">Quiz</a></li>
-        </ul>
+        </ul> -->
+            <a href="#start" data-toggle="tooltip" data-placement="top" title="Hooray!">Home</a>
+            <a href="#instruction" data-toggle="tooltip" data-placement="top" title="Hooray!">Instruction</a>
+            <a href="#quizSet" data-toggle="tooltip" data-placement="top" title="Hooray!">Quiz</a>
+        
     </div>
     
 </header>  
@@ -152,13 +159,14 @@
                 <li><input type="radio" name="question10" value="none of the above."> d. none of the above</li>
             </ul>
         </div>
+        <button type="button" class="btn-primary" onclick="checkAnswers()">Submit</button>
 
-        <input type="button" name="" value="Submit" onclick="check()" class="buttonSubmit">
+        <!-- <input type="button" name="" value="Submit" onclick="checkAnswers()" class=".btn-success"> -->
         </form>
 
     
     </div>
-    <div class="resultsDisplay">
+    <div class="jumbotron">
         <div>
         <h1>Results</h1>
         <p id="results"></p>
