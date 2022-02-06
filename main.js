@@ -34,13 +34,15 @@ function check(){
 
     if (que10 == "clearInterval"){answer++}
 
- document.write(answer);
-// document.getElementById("results").innerHTML = answer
+//  document.write(answer);
+document.getElementById("results").innerHTML = answer;
+grading();
 
 }
 
 function grading(){
     let grade;
+
     if(answer>=8){
         grade = "Excellently passed"
     }
@@ -50,6 +52,6 @@ function grading(){
     else{
         grade="poorly done, kindly retake"
     }
-    // document.getElementById("results").innerHTML = grade;
+    document.getElementById("grade").innerHTML = grade;
 }
 
